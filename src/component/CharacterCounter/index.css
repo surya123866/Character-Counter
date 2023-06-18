@@ -1,0 +1,100 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.count-output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffc533;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffbf1f;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+.heading {
+  color: #334155;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: left;
+}
+.output-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.list {
+  list-style-type: none;
+}
+.count {
+  color: #272c47;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.display-image {
+  width: 500px;
+}
+
+.count-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #272c47;
+  width: 50%;
+  justify-content: flex-start;
+  padding: 10%;
+  height: 100%;
+}
+.input-heading {
+  color: #ffc533;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: left;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.input {
+  padding: 10px;
+  background-color: #ffffff;
+  outline: none;
+  width: 100%;
+}
+.add-button {
+  color: #1e293b;
+  font-weight: 500;
+  background-color: #ffc533;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+.error {
+  color: red;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: left;
+}
